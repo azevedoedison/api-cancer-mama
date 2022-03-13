@@ -7,5 +7,7 @@ import com.azevedoedison.apicancermama.model.FaixaEtariaModel;
 
 @Repository
 public interface FaixaEtariaRepository extends JpaRepository<FaixaEtariaModel, Long>{
-
+	
+	boolean existsByFaixaIAndFaixaN(Long faixaI, Long faixaN);	
+	
 }

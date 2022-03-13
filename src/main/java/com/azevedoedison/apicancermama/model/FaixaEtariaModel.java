@@ -19,22 +19,22 @@ public class FaixaEtariaModel implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@GeneratedValue(strategy =  GenerationType.AUTO )
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(nullable = false)
 	private Long id;
 	@Column
-	private Long faixa_i;
+	private Long faixaI;
 	@Column
-	private Long faixa_n;
+	private Long faixaN;
 	@Column
 	private String descricao;
 	
 	
 	
-	public FaixaEtariaModel(Long faixa_i, Long faixa_n, String descricao) {
+	public FaixaEtariaModel(Long faixaI, Long faixaN, String descricao) {
 		super();
-		this.faixa_i = faixa_i;
-		this.faixa_n = faixa_n;
+		this.faixaI = faixaI;
+		this.faixaN = faixaN;
 		this.descricao = descricao;
 	}
 	
@@ -45,25 +45,37 @@ public class FaixaEtariaModel implements Serializable{
 		return id;
 	}
 	
-	public Long getFaixa_i() {
-		return faixa_i;
+	
+	public Long getFaixaI() {
+		return faixaI;
 	}
-	public void setFaixa_i(Long faixa_i) {
-		this.faixa_i = faixa_i;
+
+	public void setFaixaI(Long faixaI) {
+		this.faixaI = faixaI;
 	}
-	public Long getFaixa_n() {
-		return faixa_n;
+
+	public Long getFaixaN() {
+		return faixaN;
 	}
-	public void setFaixa_n(Long faixa_n) {
-		this.faixa_n = faixa_n;
+
+	public void setFaixaN(Long faixaN) {
+		this.faixaN = faixaN;
 	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+
 	public String getDescricao() {
 		return descricao;
 	}
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
-	
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}	
 
 }
