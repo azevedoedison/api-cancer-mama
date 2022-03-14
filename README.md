@@ -36,22 +36,31 @@ Atentar-se ao arquivo de configuração application.properties do projeto que co
 ## Visualização via Swagger:
 ![](https://user-images.githubusercontent.com/414878/158073799-07306bf3-2679-46e3-8761-d2f1370bcb2d.png)
 
-## Teste via Postman:
+## Teste via Postman na API de Faixa Etária:
 
 * POST (Salvando)
-![](https://user-images.githubusercontent.com/414878/157462025-a46151d8-9b01-405e-b1f5-24a6fbd4242a.png)
+
+![](https://user-images.githubusercontent.com/414878/158166459-d193f681-2997-4b15-ba3c-8cce4bb80bb6.png)
+
+* POST (Validação caso já exista a faixa etária)
+
+![](https://user-images.githubusercontent.com/414878/158166426-de31ca98-8125-4531-867b-a04296653670.png)
 
 * GETALL (Buscando todos)
-![](https://user-images.githubusercontent.com/414878/157461921-49dce45c-d3c5-4d83-abfc-8eb059dbaefd.png)
 
-* GETBYID (Buscando por ID)
-![](https://user-images.githubusercontent.com/414878/157461977-2f6a2ead-08c8-4c34-be29-707257dd5e54.png)
+![](https://user-images.githubusercontent.com/414878/158166335-7c6a29b6-a0e6-47fb-941c-bd4b450b5d00.png)
+
+* GETONE (Buscando por ID)
+
+![](https://user-images.githubusercontent.com/414878/158166223-3c71eeef-c624-48e3-8106-397ca1583e0d.png)
 
 * PUT (Atualizando por ID)
-![](https://user-images.githubusercontent.com/414878/157462103-b4ec815e-3fd9-4c30-b94e-9d50a609872c.png)
+
+![](https://user-images.githubusercontent.com/414878/158166496-aca56e2e-f876-481b-b6e9-71b4f9cafc83.png)
 
 * DELETE (Deletando por ID
-![](https://user-images.githubusercontent.com/414878/157462046-c49de6d7-6928-49e4-a007-ee03990a4494.png)
+
+![](https://user-images.githubusercontent.com/414878/158166393-d8a22d7e-670e-443f-bb9d-ea97287acbb2.png)
 
 ## Meta
 
