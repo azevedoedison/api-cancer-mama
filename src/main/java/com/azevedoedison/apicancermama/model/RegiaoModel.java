@@ -31,11 +31,22 @@ public class RegiaoModel implements Serializable {
 		this.totalExames = totalExames;
 	}
 	
-	public RegiaoModel() {		
+	public RegiaoModel(Long id, String regiao, Long qnt_exame, int totalExames) {
+		this.id = id;
+		this.regiao = regiao;
+		this.qnt_exame = qnt_exame;
+		this.totalExames = totalExames;
+	}
+	
+	public RegiaoModel() {
+		super();
 	}
 	
 	public void setId(Long id) {
 		this.id = id;
+	}
+	public Long getId() {		
+		return id;
 	}
 	public String getRegiao() {
 		return regiao;
@@ -57,6 +68,8 @@ public class RegiaoModel implements Serializable {
 	public void setTotalExames(int totalExames) {
 		this.totalExames = totalExames;
 	}
+
+	
 	
 	
 }

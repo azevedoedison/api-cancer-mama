@@ -32,7 +32,7 @@ public class FaixaEtariaService {
 	}
 	
 	@Transactional
-	public Object save(FaixaEtariaModel faixaEtariaModel) {
+	public FaixaEtariaModel save(FaixaEtariaModel faixaEtariaModel) {
 		return faixaEtariaRepository.save(faixaEtariaModel);
 	}	
 

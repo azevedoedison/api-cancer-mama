@@ -31,14 +31,23 @@ public class FaixaEtariaModel implements Serializable{
 	
 	
 	
-	public FaixaEtariaModel(Long faixaI, Long faixaN, String descricao) {
-		super();
+	public FaixaEtariaModel(Long id, Long faixaI, Long faixaN, String descricao) {
+		this.id = id;
 		this.faixaI = faixaI;
 		this.faixaN = faixaN;
 		this.descricao = descricao;
 	}
 	
+	public FaixaEtariaModel( Long faixaI, Long faixaN, String descricao) {
+		this.faixaI = faixaI;
+		this.faixaN = faixaN;
+		this.descricao = descricao;
+	}
+	
+	
+	
 	public FaixaEtariaModel() {
+		super();
 	}
 	
 	public Long getId() {

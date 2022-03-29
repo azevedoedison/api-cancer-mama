@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api-cancer-mama</name>
 	<description>API para Consulta de Dados de Câncer de Mama do SUS.</description>
-	<properties>
+	<properties> 
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
